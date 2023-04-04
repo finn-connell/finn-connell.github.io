@@ -36,3 +36,10 @@ section {
   border-width: 2.5vmin;
   border-style: solid;
 }
+.text-box-fill {
+  background-color: thistle;
+  border-color: thistle;
+  border-width: 1vmin;
+  border-radius: 5px;
+  border-style: solid;
+}
