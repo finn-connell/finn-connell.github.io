@@ -1,4 +1,5 @@
 body {
+  height: 100vh;
   background: linear-gradient(#ae34eb, #eb34b4);
   text-align: center;
   font-family: 'Roboto Mono', monospace;
