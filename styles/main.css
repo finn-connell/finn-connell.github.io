@@ -1,6 +1,37 @@
 body {
-  background-color: aqua;
+  background: linear-gradient(#ae34eb, #eb34b4);
   text-align: center;
-  font-family: 'Hanalei', cursive;
-  font-size: xx-large;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 2.5vmin;
+  border-width: 2.5vmin;
+  border-style: solid;
+  border-image: linear-gradient(#eb7734, #fffed9);
+  border-image-slice: 30%;
+  margin: 5%;
+  padding: 5%;
+}
+section {
+  display: flex;
+  height: 10vh;
+  align-items: center;
+  justify-content: center;
+
+}
+.link-box {
+  border-color: #F2A66E;
+  border-radius: 5px;
+  border-width: 10px;
+  border-style: solid;
+  background-color: #F2A66E;
+  padding: 5px;
+  margin: 5px;
+}
+#honey-bee-image-border {
+  width: 40vmin;
+  height: auto;
+  margin-top: 7vmin;
+  border-color: #F2A66E;
+  border-radius: 50%;
+  border-width: 2.5vmin;
+  border-style: solid;
 }
