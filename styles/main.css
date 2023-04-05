@@ -43,6 +43,17 @@ section {
   border-style: solid;
 }
 .text-box-fill {
+  text-align: left;
+  background-color: #f5f5f5;
+  border-color: thistle;
+  border-width: 1vmin;
+  border-radius: 5px;
+  border-style: solid;
+  padding:10px;
+  margin: 10px 0px 10px 0px;
+}
+.text-box-fill-centre {
+  text-align: center;
   background-color: #f5f5f5;
   border-color: thistle;
   border-width: 1vmin;
@@ -68,9 +79,6 @@ section {
   text-align: center;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
-.left-align {
-  text-align: left;
-}
 .fixed-pos-button {
   position: fixed;
   top: 2.5vh;
@@ -85,7 +93,6 @@ section {
 .inline-span-example {
   display: inline;
   color: #6ef288;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   padding: 10px;
   border-style: solid;
   border-color: #6ef288;
@@ -97,7 +104,6 @@ section {
   height: 100px;
   width: 100px;
   color: #6ef288;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   padding: 10px;
   border-style: solid;
   border-color: #6ef288;
@@ -109,7 +115,6 @@ section {
   height: 100px;
   width: 100px;
   color: #ff1e00;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   padding: 10px;
   border-style: solid;
   border-color: #ff1e00;
@@ -121,7 +126,6 @@ section {
   height: 100px;
   width: 100px;
   color: #0269f8;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
   padding: 10px;
   border-style: solid;
   border-color: #0269f8;
