@@ -17,14 +17,16 @@ body {
   max-width: 100vmax;
 }
 
-section {
+nav {
   display: flex;
   height: 10vh;
   align-items: center;
   justify-content: center;
-
+  margin: 5vh 0px 5vh 0px;
 }
 .link-box {
+  display:inline-block;
+  height: 8vh;
   border-color: #F2A66E;
   border-radius: 5px;
   border-width: 10px;
