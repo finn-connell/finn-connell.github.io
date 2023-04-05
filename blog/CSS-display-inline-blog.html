@@ -6,58 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
   </head>
+  <body>
   <div class="orange-heading">
     <h1>Utilising the Display Attribute</h1>
       <h2>display: inline vs. display: inline-block</h2>
   </div>
   <br>
   <div class="text-box-fill">
-    <span class="left-align">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-       mollit anim id est laborum.
+    <p class="left-align">Inline elements can be styled as blocks within their container elements using the CSS property "display." Inline elements have their 
+      display property set as "display= inline;" if no property is specified. By setting the display property as "display= inline-block;" you can have an inline
+      HTML object such as a span behave almost as if it has its own container element. This means that you can set height and width parameters for it, and have it
+      wrap other content in its container to boot. This opens up many opportunities to tinker with your layouts within containers.
     </p>
-  </span>
   </div>
   <h2 class="orange-heading-2">display: inline</h2>
   <div class="text-box-fill">
-    <span class="left-align">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+    <p class="left-align">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <span class="inline-span-example">This is how a span usually behaves.</span>
       Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+      voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+      <span class="inline-span-example">Here's another for posterity.</span>
+      Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
        mollit anim id est laborum.
     </p>
-    </span>
   </div>
   <br>
   <div class="text-box-fill">
-    <span class="left-align">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-       mollit anim id est laborum.
+    <p class="left-align">As you can see, the spans in the paragraph above are simply in line with the other element contents. This means that the padding and borders
+      overlap the surrounding text. If we wanted to add some structure to this text layout, it would be better to use "display: inline-block;".
     </p>
-    </span>
   </div>
   <h2 class="orange-heading-2">display: inline-block</h2>
   <div class="text-box-fill">
-    <span class="left-align">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-       mollit anim id est laborum.
+    <p class="left-align">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <span class="inline-block-span-example">This span is an inline block!</span> Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <span class="inline-block-span-example">So is this one!</span> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
-    </span>
   </div>
   <br>
   <div class="text-box-fill">
-    <span class="left-align">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
-      voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-       mollit anim id est laborum.
+    <p class="left-align">As you can see, the behaviour of the container's contents completely changes! We can now set height and width parameters for this span, which
+      the other contents of our paragraph element will wrap around. If we wanted to, we could place a series of spans with similar parameters adjacent to one another like so:
     </p>
-    </span>
   </div>
+  <br>
+  <div class="text-box-fill">
+  <p> <span class="inline-block-span-red">This span is a red box!</span> <span class="inline-block-span-example">This span is a green box!</span> <span class="inline-block-span-blue">This span is a blue box!</span>
+  </p>
+ </div>
+  <a class="fixed-pos-button" href="../index.html">home</a>
+  </body>
 </html>
