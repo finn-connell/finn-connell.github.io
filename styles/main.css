@@ -12,6 +12,11 @@ body {
   margin: 5%;
   padding: 5%;
 }
+.small-page-body {
+  height: 100vh;
+  max-width: 100vmax;
+}
+
 section {
   display: flex;
   height: 10vh;
