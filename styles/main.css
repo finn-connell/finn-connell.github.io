@@ -1,6 +1,7 @@
 body {
-  height: 100vh;
-  background: linear-gradient(#ae34eb, #eb34b4);
+  background-image: linear-gradient(#ae34eb, #eb34b4);
+  height: auto;
+  max-width: 100vmax;
   text-align: center;
   font-family: 'Roboto Mono', monospace;
   font-size: 2.5vmin;
@@ -42,4 +43,25 @@ section {
   border-width: 1vmin;
   border-radius: 5px;
   border-style: solid;
+}
+.orange-heading {
+  color: #F2A66E;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  border-color: #F2A66E;
+  border-width: 1vmin;
+  border-radius: 5px;
+  border-style: solid;
+}
+.orange-heading-2 {
+  text-align: left;
+  color: #F2A66E;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.orange-heading-3 {
+  color: #F2A66E;
+  text-align: center;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.left-align {
+  text-align: left;
 }
