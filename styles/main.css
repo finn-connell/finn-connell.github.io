@@ -92,6 +92,22 @@ nav {
   background-color: #F2A66E;
   padding: 5px;
 }
+.table-compare {
+ margin-left: auto;
+ margin-right: auto;
+ text-align: center;
+ background-color: #f5f5f5;
+ border-color: thistle;
+ border-width: 1vmin;
+ border-radius: 5px;
+ border-style: solid;
+ padding:10px;
+ margin: 10px
+}
+.table-flexbox {
+  display: flex;
+  justify-content: center;
+}
 .inline-span-example {
   display: inline;
   color: #6ef288;
