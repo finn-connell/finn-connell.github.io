@@ -43,6 +43,7 @@ nav {
   border-radius: 50%;
   border-width: 2.5vmin;
   border-style: solid;
+  margin: 5px;
 }
 .text-box-fill {
   text-align: left;
