@@ -45,6 +45,12 @@ nav {
   border-style: solid;
   margin: 5px;
 }
+.image-border {
+  border-color: #F2A66E;
+  border-width: 1vmin;
+  border-radius: 5px;
+  border-style: solid;
+}
 .text-box-fill {
   text-align: left;
   background-color: #f5f5f5;
