@@ -5,6 +5,9 @@ body {
   text-align: center;
   font-family: 'Roboto Mono', monospace;
   font-size: 2.5vmin;
+  @media screen and (max-width: 400px) {
+    font-size: 16px
+  }
   border-width: 2.5vmin;
   border-style: solid;
   border-image: linear-gradient(#eb7734, #fffed9);
@@ -19,14 +22,14 @@ body {
 
 nav {
   display: flex;
-  height: 10vh;
+  height: fit-content;
   align-items: center;
   justify-content: center;
   margin: 5vh 0px 5vh 0px;
 }
 .link-box {
   display:inline-block;
-  height: 8vh;
+  height: fit-content;
   border-color: #F2A66E;
   border-radius: 5px;
   border-width: 10px;
