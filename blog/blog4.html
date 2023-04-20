@@ -1,0 +1,29 @@
+<!DOCTYPE html lang = "en">
+<html>
+  <head>
+    <title>Blog for Sprint 4</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../styles/main.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1 class = "orange-heading">Problem Solving</h1>
+    <h2 class="orange-heading-2">When Were You Blocked by a Simple Problem?</h2>
+    <p class = "text-box-fill">
+      I found myself stuck a few times while working on the Katas because of my syntax. I would often write out some code that would have the intended function if only it was phrased properly, and then would have to comb through it alongside examples from the web or similar code I had written earlier to make it compile or function correctly. One example is when I was working on the fizzBuzz kata and wanted to determine if a value was divisible by a second value. I had determined that checking if the remainder was zero would tell me if it was perfectly divisible or not, and had written it out as if (x % y = 0), because % represents dividing and gives the remainder instead of the product in javaScript. Mathematically this looked correct, but it wasn’t working when I checked the corresponding tests! Frustrated, I started looking through similar code I had written the week before, and realized I needed to use “===” instead of “=”. In javaScript, “=” represents defining one thing as another, and “==” or “===” are used as comparators in expressions.  Although my intention was clear, and the code seemed to make sense at a glance, it didn’t work correctly until this was changed.
+    </p>
+    <h2 class = "orange-heading-2">When Did You Solve a Problem Elegantly?</h2>
+    <p class="text-box-fill">
+      I don’t really think any of my solutions are elegant. Looking at all of them I can see ways to refactor them to use less code with the new knowledge I’ve gained from the exercise. I was particularly happy with my deBeeing solution at the time I wrote it, which entails taking a sentence interspersed with the word “buzz” in a variety of capitalisations and returning it without any buzzes. My code works by breaking the sentence apart into a list of words by identifying each space in the sentence and splitting it. Then it goes through a loop, checking each item on the list to see if it’s the word “buzz”, and if it isn’t, adding it to a new list that gets stuck back together with spaces into a sentence! I ran into some trouble trying to make it case-insensitive to foil the mixed capitalisations, because comparing the words is case sensitive. I thought about using a regular expression, but hit upon the much simpler solution of simply converting the word to uppercase and comparing it to an uppercase “BUZZ”!
+    </p>
+    <h2 class="orange-heading-2">Troubleshooting</h2>
+    <p class="text-box-fill">
+      So far my bread and butter problem solving strategies have been throwing something at the wall (with a bit of pseudocode written first if it seems like it’s going to be tough to keep it straight in my mind while I write) followed by having a look at some working code with the same or similar syntax. I think that most code is just a bunch of simple things stapled together and referencing one another in more complex ways, so even having a look at a much simpler example is really helpful to make sure you’re using the syntax as intended. I either search for this in the code I’ve written previously or online. Once the code is compiled correctly, I read the relevant tests and console.log out the returns of certain methods or functions when appropriate to diagnose where exactly the code is going wrong. Sometimes, if it’s difficult to wrestle the solution I have into code form, I’ll have a look online for people with similar problems to see if there’s a more elegant method, but usually I can get it to work on my own. If I’m really stuck, I’ll take a break away from the computer or move on to a different problem and then review the code with fresh eyes. I think that pushing the code out of your mind for a while and having to re-explain its intended function to yourself works in a similar way to the rubber ducky method. If I was really stuck, I’d ask for help on the discord. Often, when I start typing out my questions, I find the solution before I have to post them, which is funny. When I look at my code again, I often spot something I can change to improve its simplicity or cleanliness as well, which might be a result of mentally preparing to show it to other people.
+    </p>
+    <h2 class="orange-heading-2">Were You Ever Reluctant to Ask for Help?</h2>
+    <p class="text-box-fill">
+      I hit a bit of a snag while working on the stretch question for the gradebook problem, which required me to build a function that would create a new object and populate it with information from two arrays passed into the function as arguments. I felt like my solution was really close, but something about the way it was written obviously wasn’t right. I fiddled with the syntax a lot, changing notation styles from square brackets to dots and back when referring to the object’s properties, and nearly posted about it in the discord but decided not to because I figured that the question was supposed to be a challenge and I would benefit from figuring it out for myself when I reviewed my code and went to tackle the stretch material. I definitely wouldn’t mind asking for help to expedite solving an issue that was impeding some kind of deliverable, but in the interest of practice, I like to persist with a problem and have a few attempts at it to solidify my learning.
+    </p>
+    <a class="fixed-pos-button" href="../index.html">home</a>
+  </body>
+  </html>
